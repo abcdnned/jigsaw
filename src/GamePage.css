@@ -1,0 +1,29 @@
+.game-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.game-nav {
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.nav-button {
+  margin-right: 10px;
+}
+
+.canvas-container {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-canvas {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
